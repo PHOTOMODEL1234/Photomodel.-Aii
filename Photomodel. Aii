@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photomodel AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Photomodel AI</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Welcome to Photomodel AI</h2>
+        <p>Explore the power of AI in generating and editing images effortlessly.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>AI-based Image Generation</li>
+            <li>Style Transfer</li>
+            <li>Photo Editing Tools</li>
+        </ul>
+    </section>
+
+    <section id="tasks">
+        <h2>AI Tasks</h2>
+        <button onclick="startTask()">Start a Task</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Photomodel AI. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
